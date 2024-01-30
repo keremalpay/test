@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="Image/icon" href="../Images/igne.ico">
+    <style>
+        body {
+            margin: 0;
+            background-color: #87CEEB;
+        }
+
+        .icon-bar {
+            width: 800px;
+            background-color: #555;
+            overflow: auto;
+            margin-left: 550px;
+
+        }
+
+        .icon-bar a {
+            float: left;
+            width: 33.3%;
+            text-align: center;
+            padding: 12px 0;
+            transition: all 0.3 ease;
+            color: white;
+            font-size: 36px;
+        }
+
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .left {
+            flex: 35%;
+            padding: 15px 0;
+        }
+
+        .left h2 {
+            padding-left: 8px;
+        }
+
+        .right {
+            flex: 65%;
+            padding: 15px;
+        }
+
+        #mySearch {
+            width: 100%;
+            font-size: 18px;
+            padding: 11px;
+            border: 1px solid #ddd;
+        }
+
+        #myMenu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myMenu li a {
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+        #myMenu li a:hover {
+            background-color: #eee;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="icon-bar">
+        <center>
+            <a href="index.html"><i class="fa fa-home">
+                    <center>Home</center>
+                </i></a>
+            <a class="active" href="products.html"><i class="fa fa-search">
+                    <center>Search</center>
+                </i></a>
+            <a href="products.html"><i class="fa fa-bookmark-o" aria-hidden="true">
+                    <center>Products</center>
+                </i></a>
+        </center>
+    </div>
+    <br><br>
+    <br>
+    <div class="row">
+        <div class="left" style="background-color:#bbb;">
+            <h2>Menu</h2>
+            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+            <ul id="myMenu">
+                <li><a href="../Images/ayi.jpg">Anahtarlık Ayıcık Model 1</a></li>
+                <li><a href="#">Anahtarlık Ayıcık Model 2</a></li>
+                <li><a href="#">Anahtarlık Ayıcık Model 3</a></li>
+                <li><a href="#">Anahtarlık Ayıcık Model 4 </a></li>
+                <li><a href="#">Anahtarlık Ayıcık Model 5</a></li>
+                <li><a href="#">Anahtarlık Papyonlu Ayıcık Model 1</a></li>
+                <li><a href="#">Anahtarlık Papyonlu Ayıcık Model 2</a></li>
+                <li><a href="#">Anahtarlık Papyonlu Tavşan 1</a></li>
+                <li><a href="#">Anahtarlık Papyonlu Tavşan Model 2</a></li>
+                <li><a href="#">Anahtarlık Emoji Model 1</a></li>
+                <li><a href="#">Anahtarlık Armut Model 1</a></li>
+                <li><a href="#">Anahtarlık</a></li>
+                <li><a href="#">Anahtarlık Emoji Model 2</a></li>
+                <li><a href="#">Anahtarlık Emoji Model 3</a></li>
+            </ul>
+        </div>
+
+        <script>
+            function myFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+            </script>
+</body>
+
+</html>

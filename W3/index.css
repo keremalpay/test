@@ -1,0 +1,217 @@
+.konum1 {
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    width: 258px;
+}
+
+.yazi1 {
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum2 {
+    position: absolute;
+    left: 810px;
+    top: 600px;
+    width: 258px;
+}
+
+.yazi2{
+    position: absolute;
+    left: 1100px;
+    top: 600px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum3{
+    position: absolute;
+    left: 1510px;
+    top: 600px;
+    width: 258px;
+}
+
+.yazi3{
+    position: absolute;
+    left: 1770px;
+    top: 600px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum4{
+    position: absolute;
+    top: 1000px;
+    left:100px;
+    width: 258px;
+}
+
+.yazi4{
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum5{
+    position: absolute;
+    top: 1000px;
+    left: 810px;
+    width: 258px;
+}
+
+.yazi5{
+    position: absolute;
+    left: 1100px;
+    top: 1000px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum6{
+    position: absolute;
+    top: 1000px;
+    left: 1510px;
+    width: 258px;
+    height: 344px;
+}
+
+.yazi6{
+    position: absolute;
+    left: 1770px;
+    top: 1000px;
+    text-align: center;
+    bottom: 400px;
+}
+
+
+.konum7{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    width: 258px;
+}
+
+.yazi7{
+    position: absolute;
+    left: 400px;
+    top: 1400px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum8{
+    position: absolute;
+    top: 1400px;
+    left: 810px;
+    width: 258px;
+}
+
+.yazi8{
+    position: absolute;
+    left: 1110px;
+    top: 1400px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum9{
+    position:absolute;
+    left: 1510px;
+    top: 1400px;
+    width: 258px;
+}
+
+.yazi9{
+    position: absolute;
+    left: 1770px;
+    top: 1400px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum10{
+    position: absolute;
+    left: 100px;
+    top: 1800px;
+    width: 258px;
+}
+
+.yazi10{
+    position: absolute;
+    left: 400px;
+    top: 1800px;
+    text-align: center;
+    bottom: 400px;  
+}
+
+.konum11{
+    position: absolute;
+    left: 810px;
+    top: 1800px;
+    width: 258px;
+}
+
+.yazi11{
+    position: absolute;
+    left: 1100px;
+    top: 1800px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum12{
+    position: absolute;
+    left: 1510px;
+    top: 1800px;
+    width: 258px;
+    height: 344px; 
+}
+
+.yazi12{
+    position: absolute;
+    left: 1770px;
+    top: 1800px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum13{
+    position: absolute;
+    left: 100px;
+    top: 2200px;
+    width: 258px;
+}
+
+.yazi13{
+    position: absolute;
+    left: 400px;
+    top: 2200px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.konum14{
+    position: absolute;
+    left: 810px;
+    top:2200px;
+    width: 258px;
+}
+
+.yazi14{
+    position: absolute;
+    left: 1100px;
+    top: 2200px;
+    text-align: center;
+    bottom: 400px;
+}
+
+.addcart{
+    top:46 00px;
+    left:1000px;
+}
